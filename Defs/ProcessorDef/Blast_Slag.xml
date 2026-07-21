@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <ProcessorFramework.ProcessDef ParentName="DankPyon_SmeltingOre_Industrial_Base">
+        <defName>DankPyon_SmeltingOre_Slag_Industrial</defName>
+        <thingDef>Steel</thingDef>
+        <ingredientFilter>
+            <thingDefs>
+                <li>ChunkSlagSteel</li>
+                <li>ChunkMechanoidSlag</li>
+            </thingDefs>
+        </ingredientFilter>
+        <efficiency>15</efficiency>
+    </ProcessorFramework.ProcessDef>
+</Defs>

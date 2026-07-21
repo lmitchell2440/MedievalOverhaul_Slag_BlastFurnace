@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ModMetaData>
+    <name>Medieval Overhaul Blast Slag</name>
+    <author>Phantastiaphiliac1230</author>
+    <supportedVersions>
+        <li>1.6</li>
+    </supportedVersions>
+    <modIconPath IgnoreIfNoMatchingField="True"></modIconPath>
+    <modDependencies>
+        <li>
+            <packageId>DankPyon.Medieval.Overhaul</packageId>
+            <displayName>Medieval Overhaul</displayName>
+        </li>
+        <li>
+            <packageId>syrchalis.processor.framework</packageId>
+            <displayName>[SYR] Processor Framework</displayName>
+        </li>
+    </modDependencies>
+    <loadAfter>
+        <li>syrchalis.processor.framework</li>
+        <li>DankPyon.Medieval.Overhaul</li>
+    </loadAfter>
+    <packageId>Phantastiaphiliac.BlastSlag</packageId>
+    <description>
+        Adds the ability to use the Medieval Overhaul Blast Furnace to smelt Steel/Mechanoid Slag.
+    </description>
+</ModMetaData>
