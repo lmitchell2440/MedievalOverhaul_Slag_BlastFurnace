@@ -4,6 +4,7 @@
         <xpath>Defs/ThingDef[defName="DankPyon_BlastFurnace"]/comps/li[@Class="ProcessorFramework.CompProperties_Processor"]/processes</xpath>
         <value>
             <li>DankPyon_SmeltingOre_Slag_Industrial</li>
+            <li>DankPyon_SmeltingOre_Plastite</li>
         </value>
     </Operation>
 
