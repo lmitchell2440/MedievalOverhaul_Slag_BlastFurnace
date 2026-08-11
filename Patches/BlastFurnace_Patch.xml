@@ -4,8 +4,12 @@
         <xpath>Defs/ThingDef[defName="DankPyon_BlastFurnace"]/comps/li[@Class="ProcessorFramework.CompProperties_Processor"]/processes</xpath>
         <value>
             <li>DankPyon_SmeltingOre_Slag_Industrial</li>
-            <li>DankPyon_SmeltingOre_Plastite</li>
         </value>
     </Operation>
-
+    <Operation Class="PatchOperationAdd" MayRequire="veterano.mythicages.megafaunabestiary">
+        <xpath>Defs/ProcessorFramework.ProcessDef[defName="DankPyon_SmeltingOre_Plasteel_Industrial"]/ingredientFilter/thingDefs</xpath>
+        <value>
+            <li>MA_Plastite</li>
+        </value>
+    </Operation>
 </Patch>
