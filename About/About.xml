@@ -19,8 +19,9 @@
     <loadAfter>
         <li>syrchalis.processor.framework</li>
         <li>DankPyon.Medieval.Overhaul</li>
+        <li>veterano.mythicages.megafaunabestiary</li>
     </loadAfter>
-    <packageId>Phantastiaphiliac.BlastSlag</packageId>
+    <packageId>Phantasiaphiliac.BlastSlag</packageId>
     <description>
         Adds the ability to use the Medieval Overhaul Blast Furnace to smelt Steel/Mechanoid Slag.
     </description>

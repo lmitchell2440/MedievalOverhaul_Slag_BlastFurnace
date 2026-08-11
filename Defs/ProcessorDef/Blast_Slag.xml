@@ -11,4 +11,15 @@
         </ingredientFilter>
         <efficiency>15</efficiency>
     </ProcessorFramework.ProcessDef>
+
+    <ProcessorFramework.ProcessDef ParentName="DankPyon_SmeltingOre_Industrial_Base" MayRequire="veterano.mythicages.megafaunabestiary">
+        <defName>DankPyon_SmeltingOre_Plastite</defName>
+        <thingDef>Plasteel</thingDef>
+        <ingredientFilter>
+            <thingDefs>
+                <li>MA_Plastite</li>
+            </thingDefs>
+        </ingredientFilter>
+        <efficiency>1</efficiency>
+    </ProcessorFramework.ProcessDef>
 </Defs>
